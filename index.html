@@ -1,0 +1,1649 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="FocusFlow AI - Personalized learning and executive function support">
+
+    <title>FocusFlow AI — Learn How You Learn</title>
+
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         APP
+         ===================================================== -->
+
+    <div class="app">
+
+
+        <!-- =================================================
+             SIDEBAR
+             ================================================= -->
+
+        <aside class="sidebar">
+
+            <div class="brand">
+
+                <div class="brand-mark">
+                    ✦
+                </div>
+
+                <div>
+                    <strong>FocusFlow</strong>
+                    <span>AI</span>
+                </div>
+
+            </div>
+
+
+            <nav class="navigation">
+
+                <button class="nav-item active"
+                    data-section="dashboard">
+
+                    <span>⌂</span>
+                    Dashboard
+
+                </button>
+
+
+                <button class="nav-item"
+                    data-section="study">
+
+                    <span>📚</span>
+                    Study Plan
+
+                </button>
+
+
+                <button class="nav-item"
+                    data-section="tasks">
+
+                    <span>✓</span>
+                    My Tasks
+
+                </button>
+
+
+                <button class="nav-item"
+                    data-section="learning">
+
+                    <span>🧠</span>
+                    My Learning Lab
+
+                </button>
+
+
+                <button class="nav-item"
+                    data-section="mindgym">
+
+                    <span>◈</span>
+                    Mind Gym
+
+                </button>
+
+
+                <button class="nav-item"
+                    data-section="accessibility">
+
+                    <span>♿</span>
+                    Accessibility
+
+                </button>
+
+            </nav>
+
+
+            <div class="sidebar-bottom">
+
+                <button class="nav-item"
+                    id="darkModeButton">
+
+                    <span>◐</span>
+                    Dark Mode
+
+                </button>
+
+
+                <div class="profile-mini">
+
+                    <div class="avatar"
+                        id="sidebarAvatar">
+
+                        RA
+
+                    </div>
+
+                    <div>
+
+                        <strong id="sidebarName">
+                            Learner
+                        </strong>
+
+                        <span>
+                            Your learning journey
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </aside>
+
+
+
+        <!-- =================================================
+             MAIN
+             ================================================= -->
+
+        <main class="main">
+
+
+            <!-- =================================================
+                 TOP BAR
+                 ================================================= -->
+
+            <header class="topbar">
+
+                <div>
+
+                    <p class="greeting"
+                        id="greeting">
+
+                        Good morning 👋
+
+                    </p>
+
+                    <h1 id="pageTitle">
+                        Your flow, your way.
+                    </h1>
+
+                    <p class="page-subtitle">
+
+                        FocusFlow adapts your study experience
+                        around you.
+
+                    </p>
+
+                </div>
+
+
+                <div class="top-actions">
+
+                    <button class="icon-button"
+                        id="focusModeButton"
+                        title="Focus Mode">
+
+                        ⛶
+
+                    </button>
+
+
+                    <button class="icon-button"
+                        id="resetDataButton"
+                        title="Reset demo data">
+
+                        ↻
+
+                    </button>
+
+                </div>
+
+            </header>
+
+
+
+            <!-- =================================================
+                 DASHBOARD SECTION
+                 ================================================= -->
+
+            <section class="page-section active"
+                id="dashboard">
+
+
+                <!-- HERO -->
+
+                <div class="hero-card">
+
+                    <div class="hero-content">
+
+                        <span class="hero-label">
+                            PERSONALIZED LEARNING
+                        </span>
+
+                        <h2>
+                            Learn how <em>you</em> learn.
+                        </h2>
+
+                        <p>
+
+                            FocusFlow learns what helps you
+                            start, focus, remember, and finish —
+                            then adapts your study plan.
+
+                        </p>
+
+
+                        <button class="hero-button"
+                            data-section="study">
+
+                            Build My Focus Session
+                            <span>→</span>
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="hero-visual">
+
+                        <div class="orbit orbit-one"></div>
+                        <div class="orbit orbit-two"></div>
+
+                        <div class="brain">
+
+                            🧠
+
+                        </div>
+
+                        <div class="floating-card card-one">
+
+                            <span>Focus</span>
+                            <strong>82%</strong>
+
+                        </div>
+
+                        <div class="floating-card card-two">
+
+                            <span>Energy</span>
+                            <strong>High ⚡</strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- QUICK CHECK -->
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <span class="eyebrow">
+                            QUICK CHECK-IN
+                        </span>
+
+                        <h2>
+                            How are you today?
+                        </h2>
+
+                    </div>
+
+                    <span class="saved-label">
+                        Saved automatically
+                    </span>
+
+                </div>
+
+
+                <div class="check-grid">
+
+
+                    <!-- MOOD -->
+
+                    <div class="glass-card">
+
+                        <div class="card-top">
+
+                            <div class="small-icon mood-icon">
+                                😊
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    Mood
+                                </strong>
+
+                                <span>
+                                    How are you feeling?
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="choice-row">
+
+                            <button class="choice mood-choice"
+                                data-mood="😄">
+
+                                😄
+
+                            </button>
+
+                            <button class="choice mood-choice"
+                                data-mood="😊">
+
+                                😊
+
+                            </button>
+
+                            <button class="choice mood-choice selected"
+                                data-mood="😐">
+
+                                😐
+
+                            </button>
+
+                            <button class="choice mood-choice"
+                                data-mood="😔">
+
+                                😔
+
+                            </button>
+
+                            <button class="choice mood-choice"
+                                data-mood="😫">
+
+                                😫
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- ENERGY -->
+
+                    <div class="glass-card">
+
+                        <div class="card-top">
+
+                            <div class="small-icon energy-icon">
+                                ⚡
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    Energy
+                                </strong>
+
+                                <span>
+                                    How much energy do you have?
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="energy-options">
+
+                            <button class="energy-option"
+                                data-energy="low">
+
+                                <span>🔋</span>
+                                Low
+
+                            </button>
+
+
+                            <button class="energy-option selected"
+                                data-energy="medium">
+
+                                <span>🔋🔋</span>
+                                Medium
+
+                            </button>
+
+
+                            <button class="energy-option"
+                                data-energy="high">
+
+                                <span>🔋🔋🔋</span>
+                                High
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- ADAPTIVE RECOMMENDATION -->
+
+                <div class="adaptive-card">
+
+                    <div class="adaptive-icon">
+                        ✦
+                    </div>
+
+                    <div class="adaptive-content">
+
+                        <span class="eyebrow">
+                            FOCUSFLOW RECOMMENDATION
+                        </span>
+
+                        <h3 id="adaptiveTitle">
+                            Start small. Build momentum.
+                        </h3>
+
+                        <p id="adaptiveText">
+
+                            Your current energy suggests
+                            starting with a short 15-minute
+                            session before moving to a harder task.
+
+                        </p>
+
+                    </div>
+
+                    <button class="outline-button"
+                        id="applyRecommendation">
+
+                        Use this plan
+
+                    </button>
+
+                </div>
+
+
+
+                <!-- STATS -->
+
+                <div class="stats-grid">
+
+                    <div class="stat-card">
+
+                        <div class="stat-icon purple">
+                            🎯
+                        </div>
+
+                        <div>
+
+                            <span>
+                                Focus Score
+                            </span>
+
+                            <strong id="focusScore">
+                                82
+                            </strong>
+
+                            <small>
+                                / 100
+                            </small>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="stat-card">
+
+                        <div class="stat-icon green">
+                            ✓
+                        </div>
+
+                        <div>
+
+                            <span>
+                                Tasks completed
+                            </span>
+
+                            <strong id="completedStat">
+                                3
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="stat-card">
+
+                        <div class="stat-icon orange">
+                            ◷
+                        </div>
+
+                        <div>
+
+                            <span>
+                                Focus minutes
+                            </span>
+
+                            <strong id="focusMinutes">
+                                45
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="stat-card">
+
+                        <div class="stat-icon pink">
+                            🌱
+                        </div>
+
+                        <div>
+
+                            <span>
+                                Daily streak
+                            </span>
+
+                            <strong>
+                                4 days
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- TODAY -->
+
+                <div class="dashboard-columns">
+
+
+                    <!-- NEXT STEP -->
+
+                    <div class="panel-card next-step">
+
+                        <div class="panel-header">
+
+                            <div>
+
+                                <span class="eyebrow">
+                                    YOUR NEXT STEP
+                                </span>
+
+                                <h2>
+                                    One thing at a time.
+                                </h2>
+
+                            </div>
+
+                            <span class="priority-badge">
+                                Recommended
+                            </span>
+
+                        </div>
+
+
+                        <div class="next-task">
+
+                            <div class="task-number">
+                                01
+                            </div>
+
+                            <div>
+
+                                <h3 id="recommendedTask">
+                                    Practice JavaScript Functions
+                                </h3>
+
+                                <p>
+                                    15 minutes · Medium effort
+                                </p>
+
+                            </div>
+
+                            <button class="start-task"
+                                id="startRecommended">
+
+                                Start →
+
+                            </button>
+
+                        </div>
+
+
+                        <div class="why-box">
+
+                            <span>💡</span>
+
+                            <p id="whyRecommendation">
+
+                                Smaller sessions may make it
+                                easier to begin and maintain momentum.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- DAILY WIN -->
+
+                    <div class="panel-card">
+
+                        <span class="eyebrow">
+                            TODAY'S WIN
+                        </span>
+
+                        <h2>
+                            Progress counts.
+                        </h2>
+
+                        <div class="win-number">
+                            3
+                        </div>
+
+                        <p>
+                            meaningful steps completed today.
+                        </p>
+
+                        <div class="mini-progress">
+
+                            <div style="width: 68%;"></div>
+
+                        </div>
+
+                        <small>
+                            68% of your daily goal
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- =================================================
+                 STUDY PLAN
+                 ================================================= -->
+
+            <section class="page-section"
+                id="study">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <span class="eyebrow">
+                            ADAPTIVE STUDY PLAN
+                        </span>
+
+                        <h2>
+                            Build a session that fits you.
+                        </h2>
+
+                        <p>
+                            Tell FocusFlow what you have today,
+                            and it will create a realistic session.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="study-builder">
+
+
+                    <div class="builder-card">
+
+                        <label>
+                            Education level
+                        </label>
+
+                        <div class="segmented">
+
+                            <button class="level-button selected"
+                                data-level="school">
+
+                                🏫 School
+
+                            </button>
+
+                            <button class="level-button"
+                                data-level="university">
+
+                                🎓 University
+
+                            </button>
+
+                            <button class="level-button"
+                                data-level="self">
+
+                                📖 Self-learning
+
+                            </button>
+
+                        </div>
+
+
+                        <label>
+                            What are you studying?
+                        </label>
+
+                        <input type="text"
+                            id="subjectInput"
+                            placeholder="e.g. JavaScript, Mathematics, Biology">
+
+
+                        <label>
+                            How much time do you have?
+                        </label>
+
+                        <div class="time-options">
+
+                            <button data-time="15">
+                                15 min
+                            </button>
+
+                            <button data-time="30"
+                                class="selected">
+                                30 min
+                            </button>
+
+                            <button data-time="60">
+                                60 min
+                            </button>
+
+                            <button data-time="90">
+                                90 min
+                            </button>
+
+                        </div>
+
+
+                        <label>
+                            What feels hardest right now?
+                        </label>
+
+                        <select id="difficultyInput">
+
+                            <option value="start">
+                                I can't start
+                            </option>
+
+                            <option value="focus">
+                                I can't focus
+                            </option>
+
+                            <option value="overwhelmed">
+                                Too much to do
+                            </option>
+
+                            <option value="understand">
+                                I don't understand the material
+                            </option>
+
+                            <option value="remember">
+                                I forget what I study
+                            </option>
+
+                        </select>
+
+
+                        <button class="generate-button"
+                            id="generatePlan">
+
+                            ✦ Build My Study Session
+
+                        </button>
+
+                    </div>
+
+
+
+                    <!-- GENERATED PLAN -->
+
+                    <div class="generated-plan"
+                        id="generatedPlan">
+
+                        <div class="plan-placeholder">
+
+                            <div>
+                                ✦
+                            </div>
+
+                            <h3>
+                                Your personalized session
+                            </h3>
+
+                            <p>
+                                Answer the questions and FocusFlow
+                                will build a plan around your needs.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- =================================================
+                 TASKS
+                 ================================================= -->
+
+            <section class="page-section"
+                id="tasks">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <span class="eyebrow">
+                            EXECUTIVE FUNCTION SUPPORT
+                        </span>
+
+                        <h2>
+                            Make the task smaller.
+                        </h2>
+
+                        <p>
+                            Big tasks can become manageable
+                            when you can see the next step.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="task-manager">
+
+
+                    <div class="task-input-card">
+
+                        <h3>
+                            Add a task
+                        </h3>
+
+                        <input type="text"
+                            id="taskInput"
+                            placeholder="e.g. Study chapter 3">
+
+
+                        <div class="input-row">
+
+                            <select id="priorityInput">
+
+                                <option value="low">
+                                    Low priority
+                                </option>
+
+                                <option value="medium"
+                                    selected>
+                                    Medium priority
+                                </option>
+
+                                <option value="high">
+                                    High priority
+                                </option>
+
+                            </select>
+
+
+                            <button id="addTask"
+                                class="generate-button">
+
+                                Add Task
+
+                            </button>
+
+                        </div>
+
+
+                        <button class="tiny-link"
+                            id="breakdownTask">
+
+                            🧩 Help me break this task down
+
+                        </button>
+
+                    </div>
+
+
+
+                    <div class="task-list-card">
+
+                        <div class="panel-header">
+
+                            <div>
+
+                                <span class="eyebrow">
+                                    TODAY
+                                </span>
+
+                                <h2>
+                                    My Tasks
+                                </h2>
+
+                            </div>
+
+                            <span class="task-count"
+                                id="taskCount">
+
+                                0 tasks
+
+                            </span>
+
+                        </div>
+
+
+                        <div id="taskList"
+                            class="task-list">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- =================================================
+                 LEARNING LAB
+                 ================================================= -->
+
+            <section class="page-section"
+                id="learning">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <span class="eyebrow">
+                            PERSONAL EXPERIMENT
+                        </span>
+
+                        <h2>
+                            My Learning Lab 🧪
+                        </h2>
+
+                        <p>
+                            Discover which strategies actually
+                            work best for you.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="lab-grid">
+
+
+                    <div class="lab-card">
+
+                        <div class="lab-icon">
+                            ⏱️
+                        </div>
+
+                        <h3>
+                            Short Focus Sessions
+                        </h3>
+
+                        <p>
+                            15-minute sessions
+                        </p>
+
+                        <div class="rating">
+
+                            <span>Effectiveness</span>
+
+                            <strong>
+                                ★★★★★
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="lab-card">
+
+                        <div class="lab-icon">
+                            🎨
+                        </div>
+
+                        <h3>
+                            Visual Notes
+                        </h3>
+
+                        <p>
+                            Diagrams & visual summaries
+                        </p>
+
+                        <div class="rating">
+
+                            <span>Effectiveness</span>
+
+                            <strong>
+                                ★★★★★
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="lab-card">
+
+                        <div class="lab-icon">
+                            🎧
+                        </div>
+
+                        <h3>
+                            Background Audio
+                        </h3>
+
+                        <p>
+                            Low-distraction sound
+                        </p>
+
+                        <div class="rating">
+
+                            <span>Effectiveness</span>
+
+                            <strong>
+                                ★★★★☆
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="lab-card">
+
+                        <div class="lab-icon">
+                            ☀️
+                        </div>
+
+                        <h3>
+                            Morning Study
+                        </h3>
+
+                        <p>
+                            Studying before noon
+                        </p>
+
+                        <div class="rating">
+
+                            <span>Effectiveness</span>
+
+                            <strong>
+                                ★★★★★
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="learning-insight">
+
+                    <div class="insight-icon">
+                        ✦
+                    </div>
+
+                    <div>
+
+                        <span class="eyebrow">
+                            WHAT FOCUSFLOW LEARNED
+                        </span>
+
+                        <h3>
+                            You seem to work best with
+                            short visual sessions.
+                        </h3>
+
+                        <p>
+                            Your completed sessions suggest
+                            that shorter blocks and visual
+                            information help you maintain
+                            momentum.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- =================================================
+                 MIND GYM
+                 ================================================= -->
+
+            <section class="page-section"
+                id="mindgym">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <span class="eyebrow">
+                            SKILLS PRACTICE
+                        </span>
+
+                        <h2>
+                            Mind Gym 🧠
+                        </h2>
+
+                        <p>
+                            Short exercises for attention,
+                            memory, organization and self-regulation.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="gym-grid">
+
+
+                    <button class="exercise-card"
+                        data-exercise="attention">
+
+                        <div>
+                            🎯
+                        </div>
+
+                        <h3>
+                            Attention Reset
+                        </h3>
+
+                        <p>
+                            60-second attention exercise
+                        </p>
+
+                        <span>
+                            Start →
+                        </span>
+
+                    </button>
+
+
+                    <button class="exercise-card"
+                        data-exercise="memory">
+
+                        <div>
+                            🧠
+                        </div>
+
+                        <h3>
+                            Working Memory
+                        </h3>
+
+                        <p>
+                            Remember a short sequence
+                        </p>
+
+                        <span>
+                            Start →
+                        </span>
+
+                    </button>
+
+
+                    <button class="exercise-card"
+                        data-exercise="organization">
+
+                        <div>
+                            🗂️
+                        </div>
+
+                        <h3>
+                            Organize It
+                        </h3>
+
+                        <p>
+                            Practice turning chaos into steps
+                        </p>
+
+                        <span>
+                            Start →
+                        </span>
+
+                    </button>
+
+
+                    <button class="exercise-card"
+                        data-exercise="breathing">
+
+                        <div>
+                            🌱
+                        </div>
+
+                        <h3>
+                            Reset & Breathe
+                        </h3>
+
+                        <p>
+                            A short calming reset
+                        </p>
+
+                        <span>
+                            Start →
+                        </span>
+
+                    </button>
+
+                </div>
+
+
+                <div class="exercise-result"
+                    id="exerciseResult">
+
+                    <div class="result-empty">
+
+                        <span>
+                            🧠
+                        </span>
+
+                        <h3>
+                            Choose an exercise
+                        </h3>
+
+                        <p>
+                            Pick a skill you'd like to practice today.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- =================================================
+                 ACCESSIBILITY
+                 ================================================= -->
+
+            <section class="page-section"
+                id="accessibility">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <span class="eyebrow">
+                            MAKE IT YOURS
+                        </span>
+
+                        <h2>
+                            Accessibility Center ♿
+                        </h2>
+
+                        <p>
+                            Adjust the experience to make learning
+                            more comfortable for you.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="accessibility-grid">
+
+
+                    <div class="setting-card">
+
+                        <div class="setting-icon">
+                            Aa
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Large Text
+                            </h3>
+
+                            <p>
+                                Increase text size across the app.
+                            </p>
+
+                        </div>
+
+                        <label class="switch">
+
+                            <input type="checkbox"
+                                id="largeText">
+
+                            <span></span>
+
+                        </label>
+
+                    </div>
+
+
+                    <div class="setting-card">
+
+                        <div class="setting-icon">
+                            ◐
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                High Contrast
+                            </h3>
+
+                            <p>
+                                Increase visual contrast.
+                            </p>
+
+                        </div>
+
+                        <label class="switch">
+
+                            <input type="checkbox"
+                                id="highContrast">
+
+                            <span></span>
+
+                        </label>
+
+                    </div>
+
+
+                    <div class="setting-card">
+
+                        <div class="setting-icon">
+                            ✦
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Reduce Motion
+                            </h3>
+
+                            <p>
+                                Reduce animations and transitions.
+                            </p>
+
+                        </div>
+
+                        <label class="switch">
+
+                            <input type="checkbox"
+                                id="reduceMotion">
+
+                            <span></span>
+
+                        </label>
+
+                    </div>
+
+
+                    <div class="setting-card">
+
+                        <div class="setting-icon">
+                            📖
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Reading Mode
+                            </h3>
+
+                            <p>
+                                Improve spacing and readability.
+                            </p>
+
+                        </div>
+
+                        <label class="switch">
+
+                            <input type="checkbox"
+                                id="readingMode">
+
+                            <span></span>
+
+                        </label>
+
+                    </div>
+
+
+                    <div class="setting-card">
+
+                        <div class="setting-icon">
+                            🔊
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Read Aloud
+                            </h3>
+
+                            <p>
+                                Use your browser's speech support.
+                            </p>
+
+                        </div>
+
+                        <button class="small-action"
+                            id="readPage">
+
+                            Read
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="setting-card">
+
+                        <div class="setting-icon">
+                            ⛶
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Focus Mode
+                            </h3>
+
+                            <p>
+                                Hide distracting interface elements.
+                            </p>
+
+                        </div>
+
+                        <button class="small-action"
+                            id="accessFocusMode">
+
+                            Start
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <div class="support-note">
+
+                    <span>
+                        💜
+                    </span>
+
+                    <div>
+
+                        <strong>
+                            A note about FocusFlow
+                        </strong>
+
+                        <p>
+                            FocusFlow is designed as a learning,
+                            organization and accessibility support tool.
+                            It does not diagnose or treat ADHD or any
+                            medical condition and is not a replacement
+                            for professional care.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         OVERWHELMED MODAL
+         ===================================================== -->
+
+    <div class="modal"
+        id="overwhelmedModal">
+
+        <div class="modal-content">
+
+            <button class="modal-close"
+                id="closeModal">
+
+                ×
+
+            </button>
+
+            <div class="modal-icon">
+                🌱
+            </div>
+
+            <span class="eyebrow">
+                ONE STEP
+            </span>
+
+            <h2>
+                Let's make this smaller.
+            </h2>
+
+            <p>
+                You don't need to finish everything right now.
+                FocusFlow will help you choose one tiny next step.
+            </p>
+
+            <div class="tiny-step">
+
+                <span>
+                    01
+                </span>
+
+                <strong>
+                    Open your study material.
+                </strong>
+
+            </div>
+
+            <div class="tiny-step">
+
+                <span>
+                    02
+                </span>
+
+                <strong>
+                    Read for just 5 minutes.
+                </strong>
+
+            </div>
+
+            <div class="tiny-step">
+
+                <span>
+                    03
+                </span>
+
+                <strong>
+                    Decide what comes next.
+                </strong>
+
+            </div>
+
+            <button class="generate-button"
+                id="modalStart">
+
+                Start 5-minute reset
+
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         TOAST
+         ===================================================== -->
+
+    <div class="toast"
+        id="toast">
+
+        <span>✓</span>
+
+        <p>
+            Saved
+        </p>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
