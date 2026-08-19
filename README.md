@@ -1,59 +1,230 @@
-# 🤖 FocusFlow AI
+# 🤖 FocusFlow AI — Learn How You Learn
 
-An adaptive productivity and learning platform designed to help students and individuals manage tasks, improve focus, and discover the learning methods that work best for them.
+An adaptive learning and productivity platform designed to help students and individuals build better study habits, manage tasks, improve focus, and discover the learning strategies that work best for them.
 
-**Live Demo:** [FocusFlow AI — Live Demo](https://rehab2905.github.io/FocusFlow-AI/)
+**Live Demo:** FocusFlow AI — Live Demo  
+https://rehab2905.github.io/-FocusFlow-AI-Learn-How-You-Learn/
 
-### ✨ Features
+---
 
-* 📋 **Smart Task Management** — Break large tasks into simple, manageable steps.
-* ⏱️ **Adaptive Focus Timer** — Flexible focus sessions instead of one fixed productivity method.
-* 🧠 **AI Study Coach** — Personalized guidance for studying, planning, and overcoming procrastination.
-* 🎯 **Focus Mode** — Helps users concentrate on one task at a time and reduce overwhelm.
-* 😊 **Mood & Energy Tracker** — Track mood and energy to understand personal productivity patterns.
-* 📊 **Productivity Dashboard** — Visualize focus sessions, completed tasks, and progress.
-* ♿ **Accessibility Support** — Designed with accessibility and different user needs in mind.
-* 🧩 **ADHD-Friendly Approach** — Supports common challenges such as task initiation, time management, focus, and breaking overwhelming tasks into smaller steps.
-* 📚 **School & University Support** — Helps students organize assignments, studying, deadlines, and academic goals.
-* 🔄 **Personalized Experience** — Encourages users to discover the strategies and learning styles that work best for them.
+## ✨ What is FocusFlow AI?
 
-### 💡 What Makes FocusFlow AI Different?
+FocusFlow AI is more than a traditional productivity app.
 
-FocusFlow AI is not just another productivity app.
+Instead of asking users to adapt themselves to one fixed productivity system, FocusFlow is designed to adapt the learning experience around each person.
 
-Instead of forcing every user to follow the same productivity system, the platform is designed around an **adaptive approach**:
+> **Learn how you learn.**
+
+The platform helps users understand what makes it easier for them to start, focus, remember, and complete their work.
+
+---
+
+## 🎯 Core Features
+
+### 🧠 Adaptive Learning
+
+Create personalized study sessions based on:
+
+- Education level
+- Subject
+- Available time
+- Current difficulty
+- Energy level
+- Learning preferences
+
+Supports:
+
+- 🏫 School
+- 🎓 University
+- 📖 Self-learning
+
+---
+
+### 📋 Executive Function Support
+
+Helps users turn overwhelming tasks into smaller and more manageable steps.
+
+Features include:
+
+- Task management
+- Task breakdown
+- One-step-at-a-time workflow
+- Smaller starting points
+- Progress tracking
+
+---
+
+### ⏱️ Adaptive Focus Sessions
+
+Instead of forcing everyone to use the same Pomodoro duration, FocusFlow encourages users to discover the session length that works best for them.
+
+Examples:
+
+- 15 minutes
+- 30 minutes
+- 60 minutes
+- 90 minutes
+
+---
+
+### 🧪 My Learning Lab
+
+A personal space where users can experiment with different learning strategies and discover what works best for them.
+
+Examples:
+
+- Short Focus Sessions
+- Visual Notes
+- Background Audio
+- Morning Study
+
+The goal is to turn productivity into a personal experiment rather than a fixed formula.
+
+---
+
+### 🧠 Mind Gym
+
+Short exercises designed to practice skills related to:
+
+- Attention
+- Working memory
+- Organization
+- Self-regulation
+
+Examples:
+
+- Attention Reset
+- Working Memory
+- Organize It
+- Reset & Breathe
+
+---
+
+### 😊 Mood & Energy Check-in
+
+Users can track their current:
+
+- Mood
+- Energy level
+
+FocusFlow can then use this information to suggest a more realistic study approach.
+
+---
+
+### ♿ Accessibility Center
+
+FocusFlow includes accessibility-focused features such as:
+
+- 🔤 Large Text
+- ◐ High Contrast
+- ✦ Reduce Motion
+- 📖 Reading Mode
+- 🔊 Read Aloud
+- ⛶ Focus Mode
+
+These features are designed to make studying more comfortable and accessible for different users.
+
+---
+
+## 🧩 ADHD-Friendly Approach
+
+FocusFlow is designed to support users who experience challenges with areas such as:
+
+- Starting tasks
+- Breaking down large tasks
+- Maintaining focus
+- Managing time
+- Feeling overwhelmed
+- Organizing study materials
+- Building consistent study routines
+
+The platform does **not** assume that every person needs the same productivity method.
+
+Instead, it encourages users to discover the strategies that work best for them.
+
+---
+
+## 💡 What Makes FocusFlow Different?
+
+Most productivity applications give users a fixed system:
+
+**Tasks → Timer → Complete**
+
+FocusFlow takes a different approach:
+
+**Understand the learner → Experiment → Learn what works → Adapt → Improve**
+
+The goal is to make productivity and learning more **personal, adaptive, and inclusive**.
 
 > **Don't force people to adapt to the system. Let the system adapt to them.**
 
-The goal is to create a more inclusive digital experience for students and individuals with different learning and accessibility needs.
+---
 
-### 🎯 Target Users
+## 🎓 Who Is It For?
 
-* 🎓 School Students
-* 🏫 University Students
-* 🧠 People who struggle with focus and organization
-* ♿ People with different accessibility needs
-* ⚡ Users looking for personalized productivity strategies
+FocusFlow can support:
 
-### 🛠️ Technologies
+- 🏫 School students
+- 🎓 University students
+- 📚 Self-learners
+- 🧠 People who struggle with focus and organization
+- ♿ Users with different accessibility needs
+- ⚡ People looking for personalized productivity strategies
 
-* React
-* Next.js
-* TypeScript
-* Tailwind CSS
-* AI
+---
 
-### ⚠️ Disclaimer
+## 🛠️ Technologies
 
-FocusFlow AI is a **support and productivity platform**, not a medical device or treatment. It does not diagnose or treat ADHD or any other medical condition. Its purpose is to provide organizational, educational, accessibility, and productivity support.
+- React
+- Next.js
+- TypeScript
+- Tailwind CSS
+- AI
 
-### 🚀 Future Improvements
+---
 
-* 🤖 More advanced AI personalization
-* 🧠 Adaptive learning recommendations
-* 🎙️ Voice-based AI study assistant
-* 📱 Mobile application
-* 📈 Long-term learning analytics
-* 👨‍🏫 Teacher/parent support features
-* 🌍 Multi-language accessibility
-* 🔗 Integration with calendars and educational platforms
+## ♿ Accessibility Philosophy
+
+Accessibility is not treated as an extra feature.
+
+FocusFlow aims to make the learning experience more flexible by allowing users to adjust the interface according to their needs and preferences.
+
+---
+
+## 🚀 Future Improvements
+
+Planned improvements include:
+
+- 🤖 Advanced AI personalization
+- 🧠 Personalized learning recommendations
+- 📚 AI-powered study planning
+- 🎙️ Voice-based study assistant
+- 📱 Mobile application
+- 📈 Long-term learning analytics
+- 👨‍🏫 Teacher support
+- 👨‍👩‍👧 Parent support
+- 🔗 Calendar integration
+- 🌍 Multi-language support
+- ♿ More accessibility features
+
+---
+
+## ⚠️ Disclaimer
+
+FocusFlow AI is a learning, organization, productivity, and accessibility support tool.
+
+It does **not diagnose, treat, or cure ADHD or any medical condition**, and it is not a replacement for professional medical or psychological care.
+
+---
+
+## 🌱 Project Vision
+
+FocusFlow AI aims to build a future where productivity tools don't expect everyone to learn, focus, or work in the same way.
+
+**Your brain is different.  
+Your learning can be different.  
+Your system should be flexible enough to adapt.**
+
+### 🤖 FocusFlow AI
+
+**Learn how you learn.**
